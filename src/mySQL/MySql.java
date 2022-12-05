@@ -8,8 +8,8 @@ import java.sql.Statement;
 public class MySql {
 
     private final String URL = "jdbc:mysql://localhost:3306/shopping";
-    private final String user = "root";
-    private final String pass = "1234";
+    private final String user = "userName";
+    private final String pass = "password";
 
     public ResultSet myExecuteQuery(String cmd) {
 
